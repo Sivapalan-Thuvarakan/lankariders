@@ -2,7 +2,9 @@ package com.example.ridelanka;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -14,6 +16,13 @@ public class Available_Vehicles extends AppCompatActivity {
         setContentView(R.layout.activity_available_vehicles);
 
         Spinner mySpinner = (Spinner) findViewById(R.id.spinner_seats);
-        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(Available_Vehicles.this, android.R.layout.simple_list_item_1,getResources().getStringArray(R.arra))
+
+    }
+    public void BookBus(View v){
+
+
+        Intent intent=new Intent(getApplicationContext(),Review.class);
+
+        startActivity(intent);
     }
 }

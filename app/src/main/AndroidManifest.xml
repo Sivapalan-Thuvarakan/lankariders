@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RideLanka">
         <activity android:name=".Available_Vehicles"></activity>
+        <activity android:name=".Review"></activity>
         <activity android:name=".LandingPage" />
         <activity android:name=".Registrationrider" />
         <activity android:name=".MainActivity">

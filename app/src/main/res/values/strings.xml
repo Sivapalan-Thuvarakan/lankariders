@@ -1,15 +1,4 @@
 <resources>
     <string name="app_name">RideLanka</string>
-    <resources>
-        <string-array name="planets_array">
-            <item>Mercury</item>
-            <item>Venus</item>
-            <item>Earth</item>
-            <item>Mars</item>
-            <item>Jupiter</item>
-            <item>Saturn</item>
-            <item>Uranus</item>
-            <item>Neptune</item>
-        </string-array>
-    </resources>
+
 </resources>
